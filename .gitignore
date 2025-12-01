@@ -1,1 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# Data, results, models, temp files
+*.h5
+*.hdf5
 *.csv
+*.tsv
+*.joblib
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.db
+*.log
+outputs/
+results/
+tmp/
+checkpoints/
+models/
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+
+# Test, cache
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# Env, configs, secrets (nếu dùng file .env hoặc config chứa key)
+.env
+*.env
+secret.yaml
